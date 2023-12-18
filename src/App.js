@@ -5,6 +5,7 @@ import Login from "./components/login/login";
 import Footer from "./components/footer/footer";
 import "tachyons";
 import Signup from "./components/signup/signup";
+import ListItem from "./components/list_iem/list_item";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
+          <Route path="/sell" element={<ListItem />} />
         </Routes>
         <Footer />
       </div>
