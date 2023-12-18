@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Idriss5234/BidWise-/static/css/main.94cb4f5b.css",
-    "main.js": "/Idriss5234/BidWise-/static/js/main.392b6646.js",
-    "static/js/787.17f8dd17.chunk.js": "/Idriss5234/BidWise-/static/js/787.17f8dd17.chunk.js",
-    "static/media/logo.png": "/Idriss5234/BidWise-/static/media/logo.c9ee92bfa574d6217832.png",
-    "static/media/goo.png": "/Idriss5234/BidWise-/static/media/goo.81b266ef71e5ed02bccd.png",
-    "index.html": "/Idriss5234/BidWise-/index.html",
-    "main.94cb4f5b.css.map": "/Idriss5234/BidWise-/static/css/main.94cb4f5b.css.map",
-    "main.392b6646.js.map": "/Idriss5234/BidWise-/static/js/main.392b6646.js.map",
-    "787.17f8dd17.chunk.js.map": "/Idriss5234/BidWise-/static/js/787.17f8dd17.chunk.js.map"
+    "main.css": "/BidWise-/static/css/main.94cb4f5b.css",
+    "main.js": "/BidWise-/static/js/main.5bf0f98d.js",
+    "static/js/787.17f8dd17.chunk.js": "/BidWise-/static/js/787.17f8dd17.chunk.js",
+    "static/media/logo.png": "/BidWise-/static/media/logo.c9ee92bfa574d6217832.png",
+    "static/media/goo.png": "/BidWise-/static/media/goo.81b266ef71e5ed02bccd.png",
+    "index.html": "/BidWise-/index.html",
+    "main.94cb4f5b.css.map": "/BidWise-/static/css/main.94cb4f5b.css.map",
+    "main.5bf0f98d.js.map": "/BidWise-/static/js/main.5bf0f98d.js.map",
+    "787.17f8dd17.chunk.js.map": "/BidWise-/static/js/787.17f8dd17.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.94cb4f5b.css",
-    "static/js/main.392b6646.js"
+    "static/js/main.5bf0f98d.js"
   ]
 }
