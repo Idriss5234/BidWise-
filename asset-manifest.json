@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/BidWise-/static/css/main.c82ec797.css",
-    "main.js": "/BidWise-/static/js/main.865fc7bc.js",
+    "main.css": "/BidWise-/static/css/main.bbaa9e58.css",
+    "main.js": "/BidWise-/static/js/main.c9b27a65.js",
     "static/js/787.17f8dd17.chunk.js": "/BidWise-/static/js/787.17f8dd17.chunk.js",
     "static/media/logo.png": "/BidWise-/static/media/logo.c9ee92bfa574d6217832.png",
     "static/media/goo.png": "/BidWise-/static/media/goo.81b266ef71e5ed02bccd.png",
     "index.html": "/BidWise-/index.html",
-    "main.c82ec797.css.map": "/BidWise-/static/css/main.c82ec797.css.map",
-    "main.865fc7bc.js.map": "/BidWise-/static/js/main.865fc7bc.js.map",
+    "main.bbaa9e58.css.map": "/BidWise-/static/css/main.bbaa9e58.css.map",
+    "main.c9b27a65.js.map": "/BidWise-/static/js/main.c9b27a65.js.map",
     "787.17f8dd17.chunk.js.map": "/BidWise-/static/js/787.17f8dd17.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c82ec797.css",
-    "static/js/main.865fc7bc.js"
+    "static/css/main.bbaa9e58.css",
+    "static/js/main.c9b27a65.js"
   ]
 }
