@@ -23,7 +23,6 @@
 button {
   background-color: rgb(26, 26, 211);
   color: #fff;
-  padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -64,4 +63,8 @@ hr {
 img {
   width: 30px;
   height: 30px;
+  padding-bottom: 0px;
+}
+span {
+  text-align: center;
 }

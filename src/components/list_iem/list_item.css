@@ -4,7 +4,7 @@
   height: 50px;
   border-radius: 10px;
   border-color: rgb(1, 1, 81);
-  box-shadow: 2px 2px 2px gray; /* Adjust the values as needed */
+  box-shadow: 2px 2px 2px gray;
   border-width: 4px;
 }
 .y {

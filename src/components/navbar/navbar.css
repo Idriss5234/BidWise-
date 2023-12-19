@@ -1,5 +1,5 @@
 nav {
-  background-color: #f4f4f4; /* Set your desired background color */
+  background-color: #f4f4f4;
   padding: 10px;
   display: flex;
   justify-content: space-between;
@@ -7,6 +7,9 @@ nav {
   margin: 0;
   padding: 0;
   height: 75px;
+  box-shadow: 5px 20px 25px #888888;
+  position: relative;
+  z-index: 2;
 }
 
 ul {
@@ -50,8 +53,8 @@ ul li a {
 .actions button {
   margin-left: 20px;
   background-color: blue;
+  margin-top: auto;
   color: white;
-  padding: 8px 15px;
   cursor: pointer;
   width: 125px;
   height: 40px;

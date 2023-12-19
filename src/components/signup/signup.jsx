@@ -37,8 +37,8 @@ function Signup() {
         ></input>
         <br></br>
         <input type="checkbox" className="myCheckbox"></input>
-        Notify me about features and special offers <br />
-        <input type="checkbox" className="myCheckbox"></input>I agree to the
+        ‎ Notify me about features and special offers <br />
+        <input type="checkbox" className="myCheckbox"></input>I agree to the ‎
         Terms of Service, General RTerms and conditions and Privacy Policy{" "}
         <br></br>
         <button className="gradient-button">Create an account</button>
@@ -50,7 +50,7 @@ function Signup() {
         <hr />
         <button>
           <img src={goo} alt="google" />
-          Sign in with google
+          <span> Sign in with google</span>
         </button>
       </div>
     </div>

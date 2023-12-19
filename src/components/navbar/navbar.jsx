@@ -14,9 +14,10 @@ const Navbar = () => {
         </li>
         <li>
           <Link to="/">
-            <p className="brand">
-              <strong>Bid</strong>wise
-            </p>
+            <h2>
+              <strong>Bid</strong>
+              <em>Wise</em>
+            </h2>
           </Link>
         </li>
       </ul>
@@ -29,6 +30,9 @@ const Navbar = () => {
         </li>
         <li>
           <Link to="/sell">Sell</Link>
+        </li>
+        <li>
+          <Link to="/payement">Payement</Link>
         </li>
         <li>
           <Link to="/about">About</Link>
