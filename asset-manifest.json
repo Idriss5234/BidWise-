@@ -1,18 +1,23 @@
 {
   "files": {
-    "main.css": "/BidWise-/static/css/main.a959e55a.css",
-    "main.js": "/BidWise-/static/js/main.20655c68.js",
+    "main.css": "/BidWise-/static/css/main.f390de92.css",
+    "main.js": "/BidWise-/static/js/main.b4553c7e.js",
     "static/js/787.17f8dd17.chunk.js": "/BidWise-/static/js/787.17f8dd17.chunk.js",
     "static/media/logo.png": "/BidWise-/static/media/logo.c9ee92bfa574d6217832.png",
     "static/media/goo.png": "/BidWise-/static/media/goo.81b266ef71e5ed02bccd.png",
     "static/media/logo2.png": "/BidWise-/static/media/logo2.657ef0ac54682c9ba0a0.png",
+    "static/media/product 1.png": "/BidWise-/static/media/product 1.fbfcde61e30a79f0e3df.png",
+    "static/media/product 2.png": "/BidWise-/static/media/product 2.7f67a845e777ab13783d.png",
     "index.html": "/BidWise-/index.html",
-    "main.a959e55a.css.map": "/BidWise-/static/css/main.a959e55a.css.map",
-    "main.20655c68.js.map": "/BidWise-/static/js/main.20655c68.js.map",
+    "static/media/heart-active.svg": "/BidWise-/static/media/heart-active.6df34aa3fdcc624b6e550e1dd409c435.svg",
+    "static/media/heart-hover.svg": "/BidWise-/static/media/heart-hover.18cfd976f12899877d6b.svg",
+    "static/media/heart-normal.svg": "/BidWise-/static/media/heart-normal.6429d35bc326b9ae3b0ccef186d3d8a7.svg",
+    "main.f390de92.css.map": "/BidWise-/static/css/main.f390de92.css.map",
+    "main.b4553c7e.js.map": "/BidWise-/static/js/main.b4553c7e.js.map",
     "787.17f8dd17.chunk.js.map": "/BidWise-/static/js/787.17f8dd17.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a959e55a.css",
-    "static/js/main.20655c68.js"
+    "static/css/main.f390de92.css",
+    "static/js/main.b4553c7e.js"
   ]
 }
