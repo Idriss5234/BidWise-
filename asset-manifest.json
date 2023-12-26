@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/BidWise-/static/css/main.acef90c4.css",
-    "main.js": "/BidWise-/static/js/main.53f159f3.js",
+    "main.js": "/BidWise-/static/js/main.e29b03d1.js",
     "static/js/787.17f8dd17.chunk.js": "/BidWise-/static/js/787.17f8dd17.chunk.js",
     "static/media/art.png": "/BidWise-/static/media/art.0b4c908a8c6b480ca0bd.png",
     "static/media/logo.png": "/BidWise-/static/media/logo.c9ee92bfa574d6217832.png",
@@ -21,11 +21,11 @@
     "static/media/down-arrow-hover.svg": "/BidWise-/static/media/down-arrow-hover.c6bed8c3e337b325d845ccf50c2897cf.svg",
     "static/media/down-arrow.svg": "/BidWise-/static/media/down-arrow.32a02588561c06b65f1340f3866e3ae4.svg",
     "main.acef90c4.css.map": "/BidWise-/static/css/main.acef90c4.css.map",
-    "main.53f159f3.js.map": "/BidWise-/static/js/main.53f159f3.js.map",
+    "main.e29b03d1.js.map": "/BidWise-/static/js/main.e29b03d1.js.map",
     "787.17f8dd17.chunk.js.map": "/BidWise-/static/js/787.17f8dd17.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.acef90c4.css",
-    "static/js/main.53f159f3.js"
+    "static/js/main.e29b03d1.js"
   ]
 }
