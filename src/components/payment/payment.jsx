@@ -1,6 +1,5 @@
-import React, { Component } from "react";
+import React from "react";
 import "./payment.css";
-import goo from "../navbar/logo.png";
 
 function Payment() {
   return (
@@ -32,8 +31,10 @@ function Payment() {
           <br />
           <input type="tel" placeholder="  +212" />
           <br />
-          <button className="cart">Return to cart</button>
-          <button className="checkout">Bid</button>
+          <div className="botonat">
+            <button className="cart">Return to cart</button>
+            <button className="checkout">Bid</button>
+          </div>
         </div>
       </div>
       <div className="containeer2">

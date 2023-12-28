@@ -9,8 +9,8 @@ const Footer = () => {
           <h3>
             {" "}
             <p>
-              <strong>Bid</strong>
-              <em>wise</em> &copy; 2023 All rights reserved.
+              <strong className="bid">Bid</strong>
+              <em className="wisee">wise</em> &copy; 2023 All rights reserved.
             </p>
           </h3>
           <p>

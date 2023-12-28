@@ -7,8 +7,8 @@ function Banner() {
     <div className="cont">
       <div className="cont1">
         <h1>
-          <strong>Bid</strong>
-          <em>Wise</em>
+          <strong className="biid">Bid</strong>
+          <em className="wise">Wise</em>
         </h1>
         <h2>
           Online bidding made available in Morocoo, with optimal prices and

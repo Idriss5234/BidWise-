@@ -31,6 +31,7 @@ span {
 .btns {
   margin: 10px;
   width: 200px;
+  height: 2.4em;
   border-radius: 20px;
   margin-top: 30px;
 }
@@ -74,10 +75,11 @@ input {
   color: black;
   width: 250px;
   border-radius: 25px;
+  height: 2.4em;
 }
 .checkout {
   text-align: center;
-  margin-left: 400px;
+  height: 2.4em;
   background-color: black;
   color: antiquewhite;
   width: 250px;
@@ -90,4 +92,14 @@ input {
 .cart:hover {
   background-color: #3498db;
   color: #fff;
+}
+.botonat {
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
+}
+.options {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
 }

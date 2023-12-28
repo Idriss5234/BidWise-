@@ -11,7 +11,7 @@
   color: #fff;
   padding: 10px 20px;
   border: none;
-  border-radius: 5px;
+  border-radius: 25px;
   cursor: pointer;
   width: 200px;
   height: 50px;
@@ -20,7 +20,7 @@
 .lonkk {
   margin-left: 50px;
 }
-button {
+.goo {
   background-color: rgb(26, 26, 211);
   color: #fff;
   border: none;
@@ -60,11 +60,40 @@ hr {
   margin: 0 10px;
   color: #777;
 }
-img {
+.google {
   width: 30px;
   height: 30px;
   padding-bottom: 0px;
 }
-span {
+p {
   text-align: center;
+}
+.flexing {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 5px;
+}
+.goo {
+  padding: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.blabla {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1px;
+}
+.myCheckbox {
+  width: 3%;
+
+  margin-top: 4px;
+  margin-left: 10%;
+}
+button {
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }

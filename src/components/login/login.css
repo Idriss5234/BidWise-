@@ -15,25 +15,25 @@
   cursor: pointer;
   width: 200px;
   height: 50px;
-  margin-top: 25px;
+  margin-top: 10px;
 }
-.lonkk {
-  margin-left: 50px;
-}
-button {
+
+.goo {
   background-color: rgb(26, 26, 211);
   color: #fff;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  margin-top: 25px;
 }
 .input {
   margin: 15px;
   width: 325px;
   height: 60px;
   border-radius: 10px;
+}
+.tc {
+  margin-top: 5px;
 }
 .tca {
   margin-top: 5px;
@@ -50,8 +50,7 @@ button {
   align-items: center;
   margin: 15px 0;
 }
-
-hr {
+z hr {
   flex: 1;
   border: 0;
   border-top: 1px solid #ccc;
@@ -61,7 +60,32 @@ hr {
   margin: 0 10px;
   color: #777;
 }
-img {
+.google {
   width: 30px;
   height: 30px;
+}
+.flexing {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 5px;
+}
+.goo {
+  padding: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.stuff {
+  display: flex;
+  flex-direction: row;
+  gap: 1px;
+  margin-bottom: 0%;
+}
+
+.myCheckbox {
+  width: 3%;
+
+  margin-top: 4px;
+  margin-left: 20%;
 }
