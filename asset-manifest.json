@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/BidWise-/static/css/main.acef90c4.css",
-    "main.js": "/BidWise-/static/js/main.e29b03d1.js",
+    "main.css": "/BidWise-/static/css/main.e5f1f359.css",
+    "main.js": "/BidWise-/static/js/main.ffe435dc.js",
     "static/js/787.17f8dd17.chunk.js": "/BidWise-/static/js/787.17f8dd17.chunk.js",
     "static/media/art.png": "/BidWise-/static/media/art.0b4c908a8c6b480ca0bd.png",
     "static/media/logo.png": "/BidWise-/static/media/logo.c9ee92bfa574d6217832.png",
@@ -11,8 +11,6 @@
     "static/media/furniture.png": "/BidWise-/static/media/furniture.062346719db1fdc9e594.png",
     "static/media/electronics.png": "/BidWise-/static/media/electronics.7b744992990302014839.png",
     "static/media/clothes.png": "/BidWise-/static/media/clothes.ee3aca567f97d5ec5f2e.png",
-    "static/media/product 1.png": "/BidWise-/static/media/product 1.fbfcde61e30a79f0e3df.png",
-    "static/media/product 2.png": "/BidWise-/static/media/product 2.7f67a845e777ab13783d.png",
     "static/media/others.png": "/BidWise-/static/media/others.ab8cc6c52bdff70b89b2.png",
     "index.html": "/BidWise-/index.html",
     "static/media/heart-active.svg": "/BidWise-/static/media/heart-active.6df34aa3fdcc624b6e550e1dd409c435.svg",
@@ -20,12 +18,12 @@
     "static/media/heart-normal.svg": "/BidWise-/static/media/heart-normal.6429d35bc326b9ae3b0ccef186d3d8a7.svg",
     "static/media/down-arrow-hover.svg": "/BidWise-/static/media/down-arrow-hover.c6bed8c3e337b325d845ccf50c2897cf.svg",
     "static/media/down-arrow.svg": "/BidWise-/static/media/down-arrow.32a02588561c06b65f1340f3866e3ae4.svg",
-    "main.acef90c4.css.map": "/BidWise-/static/css/main.acef90c4.css.map",
-    "main.e29b03d1.js.map": "/BidWise-/static/js/main.e29b03d1.js.map",
+    "main.e5f1f359.css.map": "/BidWise-/static/css/main.e5f1f359.css.map",
+    "main.ffe435dc.js.map": "/BidWise-/static/js/main.ffe435dc.js.map",
     "787.17f8dd17.chunk.js.map": "/BidWise-/static/js/787.17f8dd17.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.acef90c4.css",
-    "static/js/main.e29b03d1.js"
+    "static/css/main.e5f1f359.css",
+    "static/js/main.ffe435dc.js"
   ]
 }
