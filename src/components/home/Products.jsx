@@ -29,6 +29,7 @@ const Products = () => {
             price: data.startingPrice,
             time: data.endDate,
             image: imageUrl,
+            owner: data.ItemOwner,
           });
         } catch (error) {
           console.error(

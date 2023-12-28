@@ -1,10 +1,14 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import "./Product.css";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import heart_normal from "../Images/heart-normal.svg";
 import heart_active from "../Images/heart-active.svg";
+import UserContext from "../UserContext";
 
 const Product = ({ product }) => {
+  const { username } = useContext(UserContext); //get username from usecontext
+  console.log(username);
+
   const location = useLocation();
   const navigate = useNavigate();
 
@@ -13,31 +17,34 @@ const Product = ({ product }) => {
   // i need 2 ifs : if1 ila kan home donc dir koulchi else if2 ila kan user=itemowner
 
   const [isFavorite, setIsFavorite] = useState(false);
+  console.log(product.owner, "hey");
 
   const handleFavoriteClick = () => {
     setIsFavorite((prevState) => !prevState);
   };
 
   return (
-    <div className="product">
-      <div className="image">
-        <img src={product.image} alt="product" id="product-image" />
-        <div className="price">
-          <p id="top-bid">Top Bid:</p>
-          <p id="product-price">{product.price} MAD</p>
-        </div>
-      </div>
+    <>
+      {isuser ? (
+        <div className="product">
+          <div className="image">
+            <img src={product.image} alt="product" id="product-image" />
+            <div className="price">
+              <p id="top-bid">Top Bid:</p>
+              <p id="product-price">{product.price} MAD</p>
+            </div>
+          </div>
 
-      <div className="details">
-        <div className="text">
-          <h1 id="product-title">{product.name}</h1>
-          <p id="product-description">{product.description}</p>
-        </div>
+          <div className="details">
+            <div className="text">
+              <h1 id="product-title">{product.name}</h1>
+              <p id="product-description">{product.description}</p>
+            </div>
 
-        <div className="timer">
-          <p id="ends-in">Ends in:</p>
-          <p id="expiration-time">{product.time}</p>
-          {/*<div className="labels">
+            <div className="timer">
+              <p id="ends-in">Ends in:</p>
+              <p id="expiration-time">{product.time}</p>
+              {/*<div className="labels">
           <p className="label" id="label-days">
               Days
             </p>
@@ -49,18 +56,67 @@ const Product = ({ product }) => {
             </p>
           </div>
  */}
+            </div>
+            <div className="product-buttons">
+              <button id="bid-button">Bid</button>
+              <img
+                src={isFavorite ? heart_active : heart_normal}
+                alt="favorite"
+                id="favorite-button"
+                onClick={handleFavoriteClick}
+              />
+            </div>
+          </div>
         </div>
-        <div className="product-buttons">
-          <button id="bid-button">Bid</button>
-          <img
-            src={isFavorite ? heart_active : heart_normal}
-            alt="favorite"
-            id="favorite-button"
-            onClick={handleFavoriteClick}
-          />
-        </div>
-      </div>
-    </div>
+      ) : (
+        <>
+          {product.owner === username && (
+            <div className="product">
+              <div className="image">
+                <img src={product.image} alt="product" id="product-image" />
+                <div className="price">
+                  <p id="top-bid">Top Bid:</p>
+                  <p id="product-price">{product.price} MAD</p>
+                </div>
+              </div>
+
+              <div className="details">
+                <div className="text">
+                  <h1 id="product-title">{product.name}</h1>
+                  <p id="product-description">{product.description}</p>
+                </div>
+
+                <div className="timer">
+                  <p id="ends-in">Ends in:</p>
+                  <p id="expiration-time">{product.time}</p>
+                  {/*<div className="labels">
+          <p className="label" id="label-days">
+              Days
+            </p>
+            <p className="label" id="label-hours">
+              Hours
+            </p>
+            <p className="label" id="label-minutes">
+              Minutes
+            </p>
+          </div>
+ */}
+                </div>
+                <div className="product-buttons">
+                  <button id="bid-button">Bid</button>
+                  <img
+                    src={isFavorite ? heart_active : heart_normal}
+                    alt="favorite"
+                    id="favorite-button"
+                    onClick={handleFavoriteClick}
+                  />
+                </div>
+              </div>
+            </div>
+          )}
+        </>
+      )}
+    </>
   );
 };
 
